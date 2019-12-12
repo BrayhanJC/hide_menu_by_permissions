@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+
+		<menuitem name="Website"
+			id="website.menu_website_configuration"
+			sequence="9"
+			groups="base.group_user,hide_menu_by_permissions.group_website_hide"
+			web_icon="website,static/description/icon.png"/>
+
+		<menuitem id="sale.sale_menu_root"
+			name="Sales"
+			web_icon="sale,static/description/icon.png"
+			active="True"
+			groups="hide_menu_by_permissions.group_sale_hide"
+			sequence="15"/>
+
+
+		<menuitem id="utm.menu_link_tracker_root" 
+			name="Link Tracker" 
+			groups="base.group_no_one,hide_menu_by_permissions.group_link_tracker_hide" 
+			sequence="30" 
+			web_icon="utm,static/description/icon.png"/>
+
+
+
+</odoo>

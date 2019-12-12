@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+        <record id="group_website_hide" model="res.groups">
+            <field name="name">Menu Website</field>
+            <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        </record>
+
+        <record id="group_sale_hide" model="res.groups">
+            <field name="name">Menu Sale</field>
+            <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        </record>
+
+        <record id="group_link_tracker_hide" model="res.groups">
+            <field name="name">Menu Rastreador</field>
+            <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        </record>
+
+
+</odoo>
